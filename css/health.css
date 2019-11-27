@@ -1,3 +1,4 @@
+/*all of this css is suitable for using element div and span*/
 #bannerpic{ /*this css is for pic in top, this is primary image in page*/
     width: 80%;
     height: auto;
@@ -6,13 +7,13 @@
     margin-top: -30px;
     font-size: 45px;
 }
-.contenttitle{ /*this css is for content title, this is mark for 2 side*/
+.contenttitle{ /*this css is for content title news or info, this is mark for 2 side*/
     width: 45%;
     height: 20px;
     color: orange;
     float: left;
 }
-#fill{ /*this css is top info or top news or lastest news */
+#fill{ /*this css is for filling in top info or top news or lastest news */
     float: left;
     width: 45%;
     height: 250px;
@@ -35,9 +36,9 @@
     width: 90%;
     background-color: #5050f0;
 }
-.list p{ /*this css is for coloring paragraph*/
+.list p{ /*this css is for coloring paragraph in list section*/
     color: white;
 }
-#pleft{  /*this css is for coloring specific paragraph*/
+#pleft{  /*this css is for coloring specific paragraph inside list or you can using this css anywhere*/
     color: black;
 }
