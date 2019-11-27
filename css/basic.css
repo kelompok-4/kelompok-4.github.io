@@ -1,3 +1,4 @@
+/* all this css style is recommended for use element div and span*/
 *{ /*this css is for all css in this file*/
     font-family: monospace;
 }
@@ -8,10 +9,10 @@
     color: #cccccc;
     font-size: 18px;
 }
-#menu{ /*this css is gap in top, left, right, bottom text*/
+#menu{ /*this css is gap in top, left, right, bottom text inside header, in this css is contain list menu like home, fashion, food, health*/
     padding: 15px;
 }
-#menu span{ /*this css is gap betwenn text in header*/
+#menu span{ /*this css is gap betwenn text inside menu, this css just use for element span in id menu*/
     margin-right: 10px;
 }
 a{ /*this is css for remove underline for hyperlink in menu, and change color*/
