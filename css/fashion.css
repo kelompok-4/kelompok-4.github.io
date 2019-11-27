@@ -1,0 +1,55 @@
+.rindy {
+    font-size : 20px;
+    text-align : center;
+    font-family : cambria;
+    color : white;
+}
+
+.gambar img {
+    width : 600px;
+    height : 450px;
+    float : left;
+    margin : 20px;
+}
+
+.gambar1 img {
+    width : 200px;
+    height : 200px;
+    float : left;
+    margin : 15px;
+}
+
+.gambar2 img {
+    width : 200px;
+    height : 200px;
+    float : left; 
+    margin : 15px; 
+}
+
+.gambar3 img { 
+    width : 200px; 
+    height : 200px; 
+    float : left; 
+    margin : 15px; 
+}
+
+.gambar4 img { 
+    width : 200px; 
+    height : 200px; 
+    float : left; 
+    margin : 15px; 
+}
+
+.gambar5 img { 
+    width : 200px; 
+    height : 200px; 
+    float : left; 
+    margin : 15px; 
+}
+
+.gambar6 img { 
+    width : 200px; 
+    height : 200px; 
+    float : left; 
+    margin : 15px; 
+}

@@ -1,0 +1,54 @@
+.square1 {
+    background-color: aquamarine;
+    height: 560px;
+    width: 150px;
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+}
+
+div.square1 img {
+    width: 120px;
+    height: 420px;
+}
+
+.square2 {
+    background-color: cadetblue;
+    float: left;
+    width: 970px;
+    height: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.square2 p {
+    font-size: 20px;
+}
+.square2 h1 {
+    font-size: 70px;
+    color: azure;
+}
+
+.square2 h2 {
+    font-size: 70px;
+    color: azure;
+}
+
+.square3 {
+    float: left;
+    margin: 10px;
+    width: 150px;
+    height: 550px;
+    background-color: aquamarine;
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+}
+
+div.square3 img {
+    width: 120px;
+    height: 400px;
+}
