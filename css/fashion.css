@@ -1,55 +1,21 @@
-.rindy {
-    font-size : 20px;
-    text-align : center;
-    font-family : cambria;
-    color : white;
-}
+div.gambar img { /* this css is for first picture */
+        width : 1000px;
+        height : 450px;
+        display: block;
+        margin-left : auto;
+        margin-right: auto;
+        }
 
-.gambar img {
-    width : 600px;
-    height : 450px;
-    float : left;
-    margin : 20px;
-}
+div.gambar1 img { /* this css is for detail image female outfit trendy */
+        width : 190px;
+        height : 190px;
+        float : left;
+        margin : 15px;
+        }
 
-.gambar1 img {
-    width : 200px;
-    height : 200px;
-    float : left;
-    margin : 15px;
-}
-
-.gambar2 img {
-    width : 200px;
-    height : 200px;
-    float : left; 
-    margin : 15px; 
-}
-
-.gambar3 img { 
-    width : 200px; 
-    height : 200px; 
-    float : left; 
-    margin : 15px; 
-}
-
-.gambar4 img { 
-    width : 200px; 
-    height : 200px; 
-    float : left; 
-    margin : 15px; 
-}
-
-.gambar5 img { 
-    width : 200px; 
-    height : 200px; 
-    float : left; 
-    margin : 15px; 
-}
-
-.gambar6 img { 
-    width : 200px; 
-    height : 200px; 
-    float : left; 
-    margin : 15px; 
-}
+div.gambar2 img { /* this css is for detail image male outfit trendy */
+        width : 190px;
+        height : 190px;
+        float : left;
+        margin : 15px;
+        }
