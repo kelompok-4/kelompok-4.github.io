@@ -1,12 +1,21 @@
 * {margin:0; padding: 0;} /* properties inside will affect the whole page */
 
 
-.BackgroundColor {
+/*.BackgroundColor {
 	background-color: #47ceff;
-}
+}*/ 
 
 
-#button {margin: 5px; width: 100px; text-align: center; line-height: 80px; position: relative; left: 48%; top: 270px;} /* it gives a shape of a button and an action of a button, essentially giving the element a button-like property */
+#button {/* it gives a shape of a button and an action of a button, essentially giving the element a button-like property */
+    margin: 5px; /*width: 100px*/; 
+    width: 150px; /*change the size*/ 
+    text-align: center; 
+    line-height: 80px; 
+    position: relative; 
+    /*left: 48%;*/ 
+    left:45%; /* change position*/ 
+    /*top: 270px;*/
+} 
 #button a { /* You can use this css property to style the buttons themselves and the letters inside them */
 	width: 100px;
 	height: 30px;
@@ -50,7 +59,8 @@ background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(1
 }
 
 .close-button { /* The close button of the popup, essentially the exit X icon */
-	width: 6px;
+	/*width: 6px;*/
+    width: 20px; /*change size*/
 	height: 20px;
 	line-height: 23px;
 	background: #000;
@@ -71,7 +81,7 @@ background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(1
 }
 
 
-#footers { /* The div container located below */
+/*#footers { The div container located below
 	background-color: #FE1414;
 	height: 100px;
 	padding: 1%;
@@ -79,4 +89,35 @@ background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(1
 	font-family: 'Pacifico', cursive;
 	position: relative;
 	bottom: -600px;
+}*/
+
+/* new css*/
+#image{ /*new css, the function is for fixed size of image inside the popup*/
+    height: 300px;
+    width: 250px;
+}
+#image2{ /*new css, the function is for fixed size of image inside the popup*/
+    height: 300px;
+    width: 500px;
+}
+#image3{ /*new css, the function is for fixed size of image inside the popup*/
+    height: 250px;
+    width: 350px;
+}
+#popup1:target ,#popup2:target ,#popup3:target ,#popup4:target { 
+	visibility: visible; /* get the user to be able to see the popup div container when we "target" it by pressing one of the button */
+}
+#popup1,#popup2,#popup3,#popup4 { /* To edit the box that will pop out as you press one of the divs using the button id tag you can costumize how the resulting box will look like */
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+    font-family: 'Pacifico', cursive;
+	top: 0;
+	left: 0;
+	visibility: hidden; /* the pop up is actually in the page and is hidden from the users eyes, due to this property */
+	z-index: 2;
+}
+#footer{
+    top: 100px;
 }
