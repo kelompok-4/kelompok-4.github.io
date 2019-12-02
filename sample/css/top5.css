@@ -1,10 +1,8 @@
 * {margin:0; padding: 0;} /* properties inside will affect the whole page */
 
-
 .BackgroundColor {
 	background-color: #47ceff;
 }
-
 
 #button {margin: 5px; width: 100px; text-align: center; line-height: 80px; position: relative; left: 48%; top: 270px;} /* it gives a shape of a button and an action of a button, essentially giving the element a button-like property */
 #button a { /* You can use this css property to style the buttons themselves and the letters inside them */
@@ -12,7 +10,7 @@
 	height: 30px;
 	vertical-align: middle;
 	background: rgb(38,61,161);
-background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(13,171,82,1) 35%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(13,171,82,1) 35%, rgba(0,212,255,1) 100%);
 	color: #fff;
 	text-decoration: none;
 	padding: 10px;
@@ -21,13 +19,12 @@ background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(1
 	
 }
 
-
 #popup { /* To edit the box that will pop out as you press one of the divs using the button id tag you can costumize how the resulting box will look like */
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	background: rgba(0,0,0,.7);
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
 	top: 0;
 	left: 0;
 	visibility: hidden; /* the pop up is actually in the page and is hidden from the users eyes, due to this property */
@@ -76,7 +73,7 @@ background: linear-gradient(90deg, rgba(38,61,161,0.8242647400757178) 0%, rgba(1
 	height: 100px;
 	padding: 1%;
 	font-size: 12px;
-	font-family: 'Pacifico', cursive;
+	/*font-family: 'Pacifico', cursive;*/
 	position: relative;
 	bottom: -600px;
 }
