@@ -19,12 +19,12 @@ body { /*this one is for the body*/
 	top: 0%;
 	margin-bottom: ;
 	width: 100%;
-    z-index: 5;
+    /* z-index: 5; */
 }
 
 #menu ul {
 	position: relative;
-	left: 80%;
+	/* left: 80%; */
 }
 
 #menu ul li{
