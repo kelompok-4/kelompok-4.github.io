@@ -1,0 +1,61 @@
+#header { /* this is for the banner and header */
+	padding: 7%;
+	/* background: #E9E2E1 url("../img/banner.png"); /*you can change the banner background */
+	background-image: url("../image/banner.png");
+	background-size: cover;
+	background-position-y: -100px;
+	resize: both;
+	font-size: 40px;
+	text-align: center;
+	/* font-family: 'Pacifico', cursive; */
+	border-style: solid;
+	border-width: 10px;
+	border-color: #2FCBDF;
+	border-radius: 1%;
+}
+
+#header h1 {
+    /*you can modify the banner text here */
+	/* color: #BC1212; */
+	color: #ed2654;
+	/* text-shadow: 9px 9px 10px #FF7C7C; */
+}
+
+#container {
+	margin: 3% auto 3% auto;
+	background-color: white;
+	width: 95%;
+}
+#container h1 {
+	text-align: center;
+}
+
+.content {
+    /* this is for the blocks or columns where you put the main content of the page */
+	background: #E9E2E1; 
+	/* max-width: 95%; */
+	width: 94%;
+	margin: 1%;
+	padding: 2%;
+	display: inline-block;
+}
+
+.content p {
+	/* font-family: 'Pacifico', cursive; */
+	font-size: 15px;
+}
+.content li {
+	/* font-family: 'Pacifico', cursive; */
+	font-size: 20px;
+	margin: 20px;
+}
+.content h2 {
+	/* font-family: 'Pacifico', cursive; */
+	margin-bottom: 10px;
+}
+
+.content img {
+    /* you can modify your image here */
+	max-width: 100%;
+	display: inline-block;
+}
