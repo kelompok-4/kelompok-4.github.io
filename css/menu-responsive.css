@@ -1,0 +1,33 @@
+.menu{
+    float: right;
+    line-height: 100px;
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor:pointer;
+    display: none;
+}
+.show-menu-btn{
+    float: right;
+}
+.show-menu-btn i{
+    line-height: 100px;
+}
+.menur a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+    color: #3498db;
+}
+
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
