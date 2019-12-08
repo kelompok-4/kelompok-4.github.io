@@ -1,0 +1,20 @@
+@media screen and (max-width:350px){
+	#menu a{
+		font-size: 4vw;
+	}
+	
+	#header{
+		background-position-x: center;
+		background-position-y: 15px;
+		background-image: url(../image/350px.png);
+	}
+	#header h1{
+		font-size: 14vw;
+	}
+	#container h1{
+		font-size: 7vw;
+	}
+	.content ol li{
+		font-size: 5vw;
+	}
+}
