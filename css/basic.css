@@ -12,40 +12,7 @@ body { /*this one is for the body*/
 	background: #FF679A;
 }
 
-#menu { /*this is where you put the menu */
-	padding: 0;
-	background: #FE1414;
-	/*position: fixed; */
-	top: 0%;
-	margin-bottom: ;
-	width: 100%;
-    /* z-index: 5; */
-}
-
-#menu ul {
-	position: relative;
-	/* left: 80%; */
-}
-
-#menu ul li{
-	color: #E9E90D;
-	display: inline-block;
-	padding: 0.5%;
-}
-
-#menu ul li a{
-	text-decoration: none;
-	/* color: #E9E90D; */
-	color: #000000;
-	/* font-family: 'Pacifico', cursive; */
-	border-radius: 1%;
-}
-
-/* #menu ul li a:hover{
-	background-color: #a72828;
-} */
-
-#header { /* this is for the banner and header */
+#banner { /* this is for the banner and header */
 	padding: 7%;
 	/* background: #E9E2E1 url("../img/banner.png"); /*you can change the banner background */
 	background-image: url("../image/banner.png");
@@ -61,7 +28,7 @@ body { /*this one is for the body*/
 	border-radius: 1%;
 }
 
-#header h1 {
+#banner h1 {
     /*you can modify the banner text here */
 	/* color: #BC1212; */
 	color: #ed2654;
@@ -81,4 +48,59 @@ body { /*this one is for the body*/
 #footer a{ 
 	text-decoration: none;
 	text-align: right;
+}
+.header{
+    height: 50px;
+    background: #FE1414;
+    padding: 0 20px;
+    color: #fff;
+}
+.logo{
+    line-height: 50px;
+    float: left;
+    text-transform: uppercase;
+}
+.menu{
+    float: right;
+    line-height: 50px;
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor:pointer;
+    display: none;
+}
+.show-menu-btn{
+    float: right;
+}
+.show-menu-btn i{
+    line-height: 50px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+    color: #3498db;
+}
+
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+.content{
+    padding: 0 20px;
+}
+.content img{
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+}
+.content p{
+    text-align: justify;
 }
