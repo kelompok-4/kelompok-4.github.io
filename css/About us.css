@@ -58,7 +58,7 @@
     margin: 0;
     padding: 0px;
     padding-right: 85px;
-    width: 400px;
+    width: 350px;
     height: 600px;
 /*  background-color: #90EE90; */
     background-color: lightpink;
@@ -124,7 +124,7 @@
 /*  background-color: #FE1414; */
     background-color: red;
 /*  height: 100px; */
-    height: 50px;
+    height: 80px;
 /*  padding: 1%; */
 /*  font-size: 12px; */
     font-size: 15px;
@@ -135,4 +135,3 @@
     float: left;
     width: 100%;
 }
-
