@@ -8,14 +8,14 @@ h1{
 	text-align:justify;	
 }*/
 
-#container { /* wraps all the element and puts them under one box */
+#containerdua { /* wraps all the element and puts them under one box */
 	margin: auto auto 3% auto;
 	background-color: white;
 	width: 75%;
 	padding: 0;
 }
 
-.content { 
+.contentdua { 
 	/*background: #E9E2E1;*/
     background: #ADFF2F; /*this is new style, change color of content's background*/
 	/*max-width: 100%;*/
@@ -29,7 +29,7 @@ h1{
 	
 }
 
-.content img { /* images property can be used repeatedl */
+.contentdua img { /* images property can be used repeatedl */
 	max-width: 100%;
 	display: inline-block;
 }
