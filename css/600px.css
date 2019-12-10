@@ -1,8 +1,10 @@
 @media screen and (max-width:600px){
-    #banner{
+    #banner {
         background-position-x: center;
         background-position-y: -50px;
         background-image: url(../image/600px.png);
     }
-    
+    .contentdua {
+        width: 88%;
+    }
 }
