@@ -35,4 +35,24 @@
     .window{
         width: 700px;
     }
+    .content{
+        margin: 2%;
+    }
+    .right{
+        width: 300px;
+        display: inherit;
+        left: 200px;
+        margin-left: 0%;
+        height: 100px;
+        position:absolute;
+        top: 400px;
+    }
+    .right h1{
+        font-size: 70px;
+        padding: 0px;
+    }
+    .left h3{
+        height: 350px;
+        margin: 10px;
+    }
 }
