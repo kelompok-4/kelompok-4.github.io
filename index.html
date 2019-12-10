@@ -3,21 +3,28 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/basic.css">
-	<link rel="stylesheet" type="text/css" href="css/350px.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/350px.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div id="menu" >
-	<ul>
-		<li><a href="index.html">HOME</a></li>
-		<li><a href="scientificpl.html">Scientific Pick up Line</a></li>
-		<li><a href="pickup.html">Pick up Line</a></li>
-		<li><a href="aboutus.html">About Us</a></li>
-	</ul>
-</div>
+<div class="header">
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+			<i class="fas fa-ellipsis-h"></i>
+        </label>
+        <ul class="menu">
+            <a href="index.html">Home</a>
+            <a href="scientificpl.html">Scientific Pick up Line</a>
+            <a href="pickup.html">Pick up Line</a>
+            <a href="aboutus.html">About Us</a>
+            <label for="chk" class="hide-menu-btn">
+            <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </div>
 
-<div id="header">
+<div id="banner">
 	<h1>Pick up Line</h1>
 </div>
 
@@ -39,8 +46,8 @@
 	</div>
 </div>
 <div id="footer">
+		<br>
         <p>Copyright&#169;</p>
-        <a href="#menu"><h4>back to the top</h4></a>
 	</div>
 </body>
 </html>

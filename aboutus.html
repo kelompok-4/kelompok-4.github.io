@@ -3,21 +3,29 @@
 	<title>About Us</title>
     <link rel="stylesheet" type="text/css" href="css/basic.css">
     <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+    <link rel="stylesheet" type="text/css" href="css/800px.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 </head>
     
 <body>
-<div id="menu" >
-    <ul>
-        <!-- I added element <b> here -->
-        <br>
-        <li><a href="index.html">HOME</a></li>
-		<li><a href="scientificpl.html">Scientific Pick up Line</a></li>
-		<li><a href="pickup.html">Pick up Line</a></li>
-		<li><a href="aboutus.html">About Us</a></li>
-    </ul>
-</div>
+    <div class="header">
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+        <i class="fas fa-ellipsis-h"></i>
+        </label>
+        <ul class="menu">
+            <a href="index.html">Home</a>
+            <a href="scientificpl.html">Scientific Pick up Line</a>
+            <a href="pickup.html">Pick up Line</a>
+            <a href="aboutus.html">About Us</a>
+            <label for="chk" class="hide-menu-btn">
+            <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </div>
 
-<div id="header">
+<div id="banner">
 	<h1>Pick Up Line</h1>
 </div>
 
@@ -29,7 +37,7 @@
                         Description about yourself.
                             </p> -->
                         <h3><strong>I'm Pick up Line</strong></h3>
-                        <p>This is about me:</p><br>
+                        <p>This is about me:</p>
                         <p>1. You’re like Google. [Why?]  Because I’ve just found what I’ve been searching for.</p>
                         <p>2. Are you an omelette? Because you're making me egg-cited.</p>
                         <p>3. Are you religious? Because you're the answer to all my prayers.</p>
@@ -50,6 +58,6 @@
         <br>
 		<p>Copyright&#169; <!--Group 7( I don't use) --></p>
 </div>
-    
+
 </body>
 </html>

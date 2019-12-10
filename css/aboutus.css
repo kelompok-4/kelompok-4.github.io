@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap'); /* this is a specialize font that we get from google and applied to most of the text */
 
-
 * { /*this css aplies to all the elements */
     margin: 0;
     padding: 0;
@@ -8,41 +7,6 @@
 
 #content { /*this element just increases padding */
     padding : 10%;
-}
-
- #menu { /* For the Navigational Menu */
-    padding: 0;
-    background: #FE1414;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-/* I added height */
-    height: 10%;
-    z-index: 2;
-}
-
-#menu ul {
-    position: relative;
-/* left: 80%; */
-    left: 75%;
-}
-
-#menu ul li {
-/* color: #E9E90D; */
-    color: black;
-    display: inline-block;
-    padding: 0.6%;
-}
-
-#menu ul li a { /* Affects the looks of the links, any property in relation to the links can be changed here */
-    text-decoration: none;
-/* color: #E9E90D; */
-    color: black;
-/* font-family: 'Pacifico', cursive; */
-    font-family:sans-serif;
-    border-radius: 1%;
-/* I added font-size */
-    font-size: 15px;
 }
 
 #wrap { /* Main purpose to contain the divs with left and right Id but can still be used for other purposes*/
@@ -116,16 +80,11 @@
     font-size: 20px;
 }
 
-#footer { /* For the footer at the bottom of the page*/
-/*  background-color: #FE1414; */
+#footer {
     background-color: dodgerblue;
-/*  height: 100px; */
     height: 50px;
     padding: 1%;
-/*  font-size: 12px; */
     font-size: 15px;
-/*  font-family: 'Pacifico', cursive; */
     font-family: fantasy;
-/*  I added text-align*/
     text-align: center;
 }
