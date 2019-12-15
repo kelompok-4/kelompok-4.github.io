@@ -10,11 +10,11 @@
 }
 
 #wrap { /* Main purpose to contain the divs with left and right Id but can still be used for other purposes*/
-    margin: 10% auto 10% auto;
-    padding: 30px;
+    margin: 10% auto;
+    padding: 20px;
 /*  background: #FFF8DC; */
     background-color: lightskyblue;
-    border: 7px solid black;
+    border: 5px solid black;
 }
 
 .left { /* content box that we place on the left, was meant to be inside a div equipped with the wrap id but you can probally have it as a child of the body element */
@@ -25,25 +25,28 @@
     height: 600px;
 /*  background-color: #90EE90; */
     background-color: lightpink;
-    display: inline-block;
+    display: grid;
     text-align: center;
-    z-index: 0;
+    float: left;
 }
 
 .left h3 {
-    margin: 60px;
+    margin: 40px;
     height: 50px;
-    line-height: 30px;
+    line-height: 40px;
     color: black;
     text-align: center;
     font-size: 40px;
+    padding-left: 45px;
+    font-family: MV Boli;
 }
 
 .left p {
 /*  font-family: sans-serif; */
-    font-family: Times new roman;
+    font-family: MV Boli;
     font-size: 20px;
     text-align:center;
+    padding-left: 50px;
 }
 
 .img.left {
@@ -78,6 +81,7 @@
 
 .right p {
     font-size: 20px;
+    text-align: center;
 }
 
 #footer {
