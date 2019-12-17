@@ -1,0 +1,20 @@
+@media screen and (max-width:400px){
+    .left{
+        margin-left: 0px;
+        width: 290px;
+        height: 800px;
+        padding-right: 0px;
+    }
+    .left h3{
+        height: 50px;
+        padding-left: 0px;
+    }
+    .left p{
+        padding-left: 0px;
+    }
+    #banner{
+		background-position-x: center;
+		background-position-y: -50px;
+		background-image: url(400px.png);
+        font-size: 30px;
+}
