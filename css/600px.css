@@ -1,7 +1,5 @@
 @media screen and (max-width:600px){
     #banner {
-        background-position-x: center;
-        background-position-y: -50px;
         background-image: url(../image/600px.png);
     }
     .contentdua {
@@ -9,5 +7,23 @@
     }
     .left {
         margin-left: 30px;
+    }
+    .window {
+        width: 500px;
+        }
+    #popup1 img {
+        width: 400px;
+        height: 250px;
+    }
+    #popup2 img {
+        width: 400px;
+        height: 250px;
+    }
+    #popup3 img {
+        width: 400px;
+        height: 250px;
+    }
+    .content {
+        margin-left: 5px;
     }
 }
