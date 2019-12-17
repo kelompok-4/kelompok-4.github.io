@@ -10,4 +10,19 @@
     .left {
         margin-left: 30px;
     }
+    .window {
+        width: 500px;
+        }
+    #popup1 img {
+        width: 400px;
+        height: 250px;
+    }
+    #popup2 img {
+        width: 400px;
+        height: 250px;
+    }
+    #popup3 img {
+        width: 400px;
+        height: 250px;
+    }
 }
