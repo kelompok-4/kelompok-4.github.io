@@ -16,5 +16,9 @@
 		background-position-x: center;
 		background-position-y: -50px;
 		background-image: url(400px.png);
-        font-size: 30px;
+        	font-size: 30px;
+    }
+    .window{
+        width: 300px;
+    }
 }
