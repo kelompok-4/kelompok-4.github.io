@@ -14,7 +14,7 @@
 		font-size: 7vw;
 	}
 	.content{
-		width: 92%;
+		width: 90%;
 		margin: 5% 0% 5% 0%  !important;
 	}
 	.content ol li{
@@ -23,18 +23,21 @@
 	.left{
 		width: 280px;
 		padding: 0 0 0 0;
+		margin-left: 0px;
+		height: 800px;
 	}
 	.left strong{
 		font-size: 25px;
 	}
 	.left h3{
-		height: 50px !important; 
+		height: 10px !important; 
+		padding-left: 0px;
 	}
 	.left p{
 		font-size: 20px;
-		margin-bottom: 10px;
 		text-align: left;
 		margin: 2vw;
+		padding-left: 10px;
 	}
 	.right {
 		left: 0;
@@ -50,5 +53,17 @@
 	#wrap{
 		padding: 14px;
 		margin: 0 !important;
+	}
+	.window{
+		width: 300px !important;
+		height: 380px ;
+	}
+	.window image{
+		height: 300px;
+		width: 250px !important;
+	}
+	.window #image2{
+		height: 200px;
+		width: 280px !important;
 	}
 }
