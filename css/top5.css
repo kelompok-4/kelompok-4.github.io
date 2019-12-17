@@ -12,7 +12,6 @@
     text-align: center; 
     line-height: 80px; 
     /*left: 48%;*/ 
-    
     left:44%; /* change position*/ 
     /*top: 270px;*/
 } 
@@ -111,7 +110,6 @@
 	height: 100%;
 	position: fixed;
 	background: rgba(0,0,0,.7);
-    font-family: 'Pacifico', cursive;
 	top: 0;
 	left: 0;
 	visibility: hidden; /* the pop up is actually in the page and is hidden from the users eyes, due to this property */
