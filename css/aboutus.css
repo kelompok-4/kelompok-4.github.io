@@ -83,16 +83,16 @@
 
 #footer { /* For the footer at the bottom of the page*/
 /*  background-color: #FE1414; */
-    background-color: dodgerblue;
+/*  background-color: dodgerblue; */
 /*  height: 100px; */
-    height: 50px;
+/*  height: 50px; */
 /*  padding: 1%; */
 /*  font-size: 12px; */
-    font-size: 15px;
+/*  font-size: 15px; */
 /*  font-family: 'Pacifico', cursive; */
-    font-family: fantasy;
-/*  I added text-align*/
-    text-align: center;
-    float: left;
-    width: 100%;
+/*  font-family: fantasy; */
+/*  I added text-align*/ 
+/*  text-align: center; */
+/*  float: left; */
+/*  width: 100%; */
 }
