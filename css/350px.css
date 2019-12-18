@@ -21,7 +21,7 @@
 		font-size: 5vw;
 	}
 	.left{
-		width: 280px;
+		width: 280px !important;
 		padding: 0 0 0 0;
 		margin-left: 0px !important;
 		height: 800px;
@@ -44,7 +44,7 @@
 		bottom: 0;
 		padding: 0;
 		margin-left: 0;
-		width: 270px;
+		width: 270px !important;
 		display: none !important;
 	}
 	.right h1{
